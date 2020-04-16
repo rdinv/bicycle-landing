@@ -12,7 +12,7 @@ const rename = require('gulp-rename');
 gulp.task('server', function() {
   browserSync.init({
     server: {
-      port: 9000,
+      port: 3000,
       baseDir: "build"
     }
   });
@@ -57,13 +57,13 @@ gulp.task('clean', function del(cb) {
 
 /* ------------ Copy fonts ------------- */
 gulp.task('copy:fonts', function() {
-  return gulp.src('./source/fonts/**/*.*')
+  return gulp.src('sourse/fonts/**/*/*')
     .pipe(gulp.dest('build/fonts'));
 });
 
 /* ------------ Copy images ------------- */
 gulp.task('copy:images', function() {
-  return gulp.src('./source/images/**/*.*')
+  return gulp.src('sourse/images/*.*')
     .pipe(gulp.dest('build/images'));
 });
 
