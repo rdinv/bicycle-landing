@@ -1,0 +1,33 @@
+.twitter {
+    min-height: 60px;
+    padding: 90px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.tweet-author {
+    padding: 40px 0px 40px 0px;
+}
+.bold {
+    font-family: $ff-bold;
+    font-size: 18pt;
+}
+.light {
+    font-family: $ff-light;
+    font-size: 13pt;
+}
+.tweet {
+    font-family: $ff-italic;
+    font-size: 18pt;
+    padding-bottom: 40px;
+}
+.twitter-button {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid #a9afb3;
+    background-color:transparent;
+    outline:none;
+}
+.twitter-button.active {
+    background-color: #a9afb3;
+}

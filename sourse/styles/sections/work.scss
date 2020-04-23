@@ -2,6 +2,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+.title {
+    font-family: $ff-bold;
+    font-size: 18pt;
+}
 .bike-1{
     width: 66.5%;
     background:url(../images/bike-1-0.png) no-repeat;
@@ -28,6 +32,10 @@
 }
 .vintage__info, .boriosa__info, .retroBike__info{
     height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .vintage, .boriosa, .retroBike{
     display: flex;
@@ -43,7 +51,6 @@
 .main-text-bike {
     font-family: $ff-regular;
     font-size: 13pt;
-    padding-bottom: 100px;
 }
 .saddle-1 {
     background:url(../images/saddle-1.png) no-repeat center;

@@ -1,9 +1,10 @@
 @import '../../node_modules/normalize.scss/normalize';
 
-@import 'global/fonts.scss';
-@import 'global/vars.scss';
-@import 'global/sprite.scss';
+@import 'sourse/styles/global/fonts.scss';
+@import 'sourse/styles/global/vars.scss';
+@import 'sourse/styles/global/sprite.scss';
 
 @import 'sourse/styles/sections/header.scss';
 @import 'sourse/styles/sections/info-block.scss';
 @import 'sourse/styles/sections/work.scss';
+@import 'sourse/styles/sections/twitter.scss';
