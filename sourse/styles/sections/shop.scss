@@ -1,0 +1,25 @@
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.first-column {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.3125%;
+}
+.img1,.img2,.img4,.img5,.img7,.img8 {
+    width: 50%;
+}
+.img3,.img6 {
+    width: 100%;
+}
+.second-column {
+    display: flex;
+    width: 33.375%;
+}
+.third-column {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.3125%;
+}

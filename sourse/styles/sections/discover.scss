@@ -1,0 +1,16 @@
+.discover {
+    background-color: #282f35;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discover-shop {
+    width: 300px;
+    height: 50px;
+    font-family: $ff-bold;
+    color: #fff;
+    background-color: #282f35;
+    outline:none;
+}
