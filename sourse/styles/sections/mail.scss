@@ -1,0 +1,35 @@
+.mail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 470px;
+    width: 100%;
+}
+.stayon {
+    font-family: $ff-italic;
+    font-size: 24pt;
+    color: #4d4959;
+}
+.send-mail {
+    display: flex;
+    align-items: center;
+}
+.enter-mail {
+    height: 70px;
+    width: 400px;
+    font-family: $ff-italic;
+    font-size: 20pt;
+    margin-right: 10px;
+    outline: none;
+}
+.go {
+    height: 76px;
+    width: 125px;
+    background-color: #64c29e;
+    color: #fff;
+    font-family: $ff-light;
+    font-size: 20pt;
+    border: none;
+    outline: none;
+}
