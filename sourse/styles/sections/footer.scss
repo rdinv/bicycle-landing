@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    background-color: #f7f7f7;
+    justify-content: space-between;
+}
+.footer--bold {
+    font-family: $ff-bold;
+}
+.footer--italic {
+    font-family: $ff-italic;
+}
+.site-footer--copyright {
+    padding-left: 10%;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    padding-right: 47%;
+    width: 135px;
+    height: 35px;
+}
+.social-links>a {
+    display: flex;
+    padding-right: 15px;
+}
