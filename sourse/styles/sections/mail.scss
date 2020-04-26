@@ -18,15 +18,15 @@
     justify-content: center;
 }
 .enter-mail {
-    height: 70px;
+    height: 65px;
     width: 400px;
     font-family: $ff-italic;
     font-size: 20pt;
-    margin-right: 10px;
+    margin: 10px;
     outline: none;
 }
 .go {
-    height: 76px;
+    height: 70px;
     width: 125px;
     background-color: #64c29e;
     color: #fff;
@@ -34,4 +34,13 @@
     font-size: 20pt;
     border: none;
     outline: none;
+}
+@media (max-width: 600px){
+    .send-mail {
+        flex-direction: column;
+        width: 80%;
+    }
+    .go, .enter-mail {
+        width: 100%;
+    }
 }
