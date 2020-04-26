@@ -1,25 +1,63 @@
 .shop {
-    display: flex;
-    flex-wrap: wrap;
+    height: 55vh;
     width: 100%;
+    display: grid;
+    justify-content: center;
+    grid: repeat(2, 50%) / repeat(6, 16.66666666675%);
+    grid-template-areas:
+        "p01 p02 p04 p05 p06 p06"
+        "p03 p03 p04 p05 p07 p08";
+    transition: .5s linear;
 }
-.first-column {
-    display: flex;
-    flex-wrap: wrap;
-    width: 33.3125%;
+.shopimg {
+    background-size:cover;
+    background-position: center;
 }
-.img1,.img2,.img4,.img5,.img7,.img8 {
-    width: 50%;
+.img1 {
+    grid-area: p01;
+    background-image: url(../images/shop-1.png);
 }
-.img3,.img6 {
-    width: 100%;
+.img2 {
+    grid-area: p02;
+    background-image: url(../images/shop-2.png);
 }
-.second-column {
-    display: flex;
-    width: 33.375%;
+.img3 {
+    grid-area: p03;
+    background-image: url(../images/shop-3.png);
 }
-.third-column {
-    display: flex;
-    flex-wrap: wrap;
-    width: 33.3125%;
+.img4 {
+    grid-area: p04;
+    background-image: url(../images/shop-4.png);
+}
+.img5 {
+    grid-area: p05;
+    background-image: url(../images/shop-5.png);
+}
+.img6 {
+    grid-area: p06;
+    background-image: url(../images/shop-6.png);
+}
+.img7 {
+    grid-area: p07;
+    background-image: url(../images/shop-7.png);
+}
+.img8 {
+    grid-area: p08;
+    background-image: url(../images/shop-8.png);
+}
+@media(max-width:1024px) {
+    .shop {
+        height: 70vh;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        //overflow: hidden;
+        grid: repeat(4, 25%) / repeat(4, 25%);
+        grid-template-areas:
+        "p01 p02 p04 p05"
+        "p03 p03 p04 p05"
+        "p06 p06 p06 p06"
+        "p07 p07 p08 p08";
+        transition: .5s linear;
+    }
 }
